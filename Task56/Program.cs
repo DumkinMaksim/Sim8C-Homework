@@ -85,4 +85,4 @@ int[] index=SortArrayindex(myArray);
 
 ShowArray(index);
 Console.WriteLine();
-Console.WriteLine(MinRows(index));
+Console.WriteLine("The row with the smallest sum of elements-> "+(MinRows(index)+1));
