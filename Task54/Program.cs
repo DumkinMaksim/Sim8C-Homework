@@ -71,8 +71,12 @@ Console.WriteLine("Input n: ->");
 int n=Convert.ToInt32(Console.ReadLine());
 
 int[,]myArray=CreateRandom2dArray(m,n,-9,9);
+Console.WriteLine("An array with the specified parameters has been created ");
 Show2dArray(myArray);
+
 Console.WriteLine();
+
+Console.WriteLine("The array is sorted from smaller to larger by rows");
 
 int[,]changeArray=SortArrayindex(myArray);
 Show2dArray(changeArray);
